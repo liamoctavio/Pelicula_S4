@@ -9,6 +9,7 @@ public interface PeliculaService {
     
     List<Pelicula> getAll();
     Optional<Pelicula> getById(Long id);
+    Pelicula save(Pelicula pelicula);
 
 
 }

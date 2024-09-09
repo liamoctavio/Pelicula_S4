@@ -24,5 +24,10 @@ public class PeliculaServicelmpl implements PeliculaService {
         return peliculaRepository.findById(id);
     }
 
+    @Override
+    public Pelicula save(Pelicula pelicula) {
+        return peliculaRepository.save(pelicula);
+    }
+
 
 }
